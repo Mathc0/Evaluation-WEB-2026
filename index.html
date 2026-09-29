@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini-boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <header class="bg-red-400 fixed w-full">
+    <nav class="flex items-center justify-between w-4/5 m-auto h-20">
+      <div id="logo">LOGO</div>
+      <ul class="flex items-center gap-3 text-white">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Team</li>
+        <li class="panier">Panier<p class="counter"></p></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="sidebar fixed text-white w-[0px] duration-300 h-screen bg-red-400 absolute">
+    <p>Articles dans le panier :</p>
+    <ul id="panier">
+
+    </ul>
+  </div>
+  <main>
+    <div class="products flex items-center, justify-center gap-3 flex-wrap"></div>
+    <section class="mt-6 px-4 md:px-8" aria-labelledby="products-heading">
+   <div class="mx-auto max-w-4xl lg:max-w-7xl">
+
+      <h2 id="products-heading" class="text-2xl font-bold text-slate-900 mb-8">
+         Premium Threads
+      </h2>
+
+      <ul id="articles" class="grid grid-cols-2 gap-4 md:gap-8 sm:grid-cols-3 lg:grid-cols-4">
+
+         <!-- Product Item -->
+         
+</section>
+  </main>
+  <script src="script.js" ></script>
+</body>
+</html>
